@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DLL">
+      <UniqueIdentifier>{671746f1-5fef-46b1-abe1-2f3d3d48cc32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{eb279d80-7f7b-479f-b401-4e22fb3bedda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{2091af05-9e2d-4212-ad1c-01e47d77a1d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\textures">
+      <UniqueIdentifier>{bff96c97-6b66-4eec-94de-1a3d7c683b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\sounds">
+      <UniqueIdentifier>{d6924055-3e38-49d1-931b-45c6b8693fd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE">
+      <UniqueIdentifier>{c531f897-afff-4145-9146-46cc8c664d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\Work with Files">
+      <UniqueIdentifier>{a7f7d88b-302f-409a-91b4-6f04dc54e02a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\Window">
+      <UniqueIdentifier>{a78609b3-bffd-4929-a574-ff750d2a9add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\DeltaTime">
+      <UniqueIdentifier>{0de49169-4424-4ab0-aab4-a84f186504e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\Scenes">
+      <UniqueIdentifier>{dc7d6aaf-a6c3-4a5c-ae6f-a2a09ddbd077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\GameClasses">
+      <UniqueIdentifier>{2a0ad312-e17e-45f9-bc64-8c824d0357cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\UI">
+      <UniqueIdentifier>{62885e44-f930-403c-8316-d42c644f874f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\UI\Additional">
+      <UniqueIdentifier>{94822ed3-2e4a-4e8e-bd6f-8726eaf627f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\Scene Manager">
+      <UniqueIdentifier>{bd016905-fb2c-4ac0-b9f2-2fd53d4cdb0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\GameClasses\RPG_modules">
+      <UniqueIdentifier>{bf4c9221-005e-433b-9e3f-2c4c8d98983d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\AditionalClasses">
+      <UniqueIdentifier>{427b0ce8-72ba-40e3-a23a-8775916a4537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\UI\Console">
+      <UniqueIdentifier>{aea35a74-aef4-4e89-aa2e-bbb0746441bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Resource_Manager.cpp">
+      <Filter>CODE\Work with Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>CODE\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="DeltaTime.cpp">
+      <Filter>CODE\DeltaTime</Filter>
+    </ClCompile>
+    <ClCompile Include="FPS.cpp">
+      <Filter>CODE\DeltaTime</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_1.cpp">
+      <Filter>CODE\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Menu.cpp">
+      <Filter>CODE\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>CODE</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>CODE\GameClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Manager.cpp">
+      <Filter>CODE\Scene Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="UIelement.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiStorage.cpp">
+      <Filter>CODE\AditionalClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>CODE\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_ContextMenu.cpp">
+      <Filter>CODE\UI\Additional</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Window.cpp">
+      <Filter>CODE\UI\Additional</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_ButtonTexture.cpp">
+      <Filter>CODE\UI\Additional</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>CODE\UI\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="StrList.cpp" />
+    <ClCompile Include="UI_ButtonText.cpp">
+      <Filter>CODE\UI\Additional</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="openal32.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="sfml-audio-d-2.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="sfml-graphics-2.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="sfml-graphics-d-2.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="sfml-network-2.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="sfml-network-d-2.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="sfml-system-2.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="sfml-system-d-2.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="sfml-window-2.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="sfml-window-d-2.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="sfml-audio-2.dll">
+      <Filter>DLL</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource_Manager.h">
+      <Filter>CODE\Work with Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>CODE\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="DeltaTime.h">
+      <Filter>CODE\DeltaTime</Filter>
+    </ClInclude>
+    <ClInclude Include="FPS.h">
+      <Filter>CODE\DeltaTime</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_1.h">
+      <Filter>CODE\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Main_Menu.h">
+      <Filter>CODE\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>CODE\GameClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Manager.h">
+      <Filter>CODE\Scene Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="UIelement.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiStorage.h">
+      <Filter>CODE\AditionalClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>CODE\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_ContextMenu.h">
+      <Filter>CODE\UI\Additional</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Window.h">
+      <Filter>CODE\UI\Additional</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_ButtonTexture.h">
+      <Filter>CODE\UI\Additional</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>CODE\UI\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="StrList.h" />
+    <ClInclude Include="UI_ButtonText.h">
+      <Filter>CODE\UI\Additional</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\textures\Main_Menu.png">
+      <Filter>Resources\textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
