@@ -16,7 +16,7 @@ public:
 	virtual ~UIelement();
 
 	virtual void update(float &dt, sf::RenderWindow &window, MultiStorage &multistorage) = 0;
-	void render(sf::RenderTarget &window, sf::RenderStates states = sf::RenderStates::Default);
+	void render(sf::RenderTarget &window, sf::RenderStates states = sf::RenderStates::Default) const;
 };
 
 #endif
