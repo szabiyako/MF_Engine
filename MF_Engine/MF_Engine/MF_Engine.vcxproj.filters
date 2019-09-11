@@ -102,9 +102,11 @@
     <ClCompile Include="Console.cpp">
       <Filter>CODE\UI\Console</Filter>
     </ClCompile>
-    <ClCompile Include="StrList.cpp" />
     <ClCompile Include="UI_ButtonText.cpp">
       <Filter>CODE\UI\Additional</Filter>
+    </ClCompile>
+    <ClCompile Include="StrList.cpp">
+      <Filter>CODE\AditionalClasses</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -188,9 +190,11 @@
     <ClInclude Include="Console.h">
       <Filter>CODE\UI\Console</Filter>
     </ClInclude>
-    <ClInclude Include="StrList.h" />
     <ClInclude Include="UI_ButtonText.h">
       <Filter>CODE\UI\Additional</Filter>
+    </ClInclude>
+    <ClInclude Include="StrList.h">
+      <Filter>CODE\AditionalClasses</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

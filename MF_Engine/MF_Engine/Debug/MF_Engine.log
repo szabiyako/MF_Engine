@@ -1,2 +1,8 @@
-﻿  UI_ButtonText.cpp
+﻿  Console.cpp
+  Level_1.cpp
+  Main.cpp
+  Main_Menu.cpp
+  Scene_Manager.cpp
+  Window.cpp
+  Создание кода...
   MF_Engine.vcxproj -> C:\Users\szabi\source\repos\MF_Engine\Debug\MF_Engine.exe
