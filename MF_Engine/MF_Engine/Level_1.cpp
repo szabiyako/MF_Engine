@@ -8,15 +8,15 @@ Level_1::Level_1(Resource_Manager * resource_manager) : Scene(resource_manager)
 	this->text->setFillColor(sf::Color::White);
 	this->text->setPosition(sf::Vector2f(400.f, 200.f));
 
-	this->list.push_back(L"Назад");
-	this->list.push_back(L"1) Один");
-	this->list.push_back(L"2) Два");
-	this->list.push_back(L"3) Три");
-	this->list.push_back(L"4) Четыре");
-	this->list.push_back(L"5) Пять");
+	this->list.push_back(L"Back");
+	this->list.push_back(L"1) One");
+	this->list.push_back(L"2) Two");
+	this->list.push_back(L"3) Three");
+	this->list.push_back(L"4) Four");
+	this->list.push_back(L"5) Five");
 	this->cm = new UI::ContextMenu(this->list, "resources/fonts/arial.ttf", sf::Vector2f(200.f, 40.f), 30);
 
-	this->button = new UI::ButtonText(this->resource_manager->getFontSystem(), L"Кнопка", { 200.f, 80.f }, 60);
+	this->button = new UI::ButtonText(this->resource_manager->getFontSystem(), L"Button", { 200.f, 80.f }, 60);
 	this->button->setPosition({1080.f, 640.f});
 }
 

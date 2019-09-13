@@ -9,7 +9,7 @@ class MultiStorage
 private:
 	std::vector<int> *vectorInt;
 	std::vector<double> *vectorDouble;
-	std::vector<std::string> *vectorString;
+	std::vector<std::wstring> *vectorString;
 
 public:
 	MultiStorage();
@@ -21,7 +21,7 @@ public:
 
 	std::vector<int> *getVectorInt();
 	std::vector<double> *getVectorDouble();
-	std::vector<std::string> *getVectorString();
+	std::vector<std::wstring> *getVectorString();
 };
 
 #endif

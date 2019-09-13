@@ -1,5 +1,5 @@
-#ifndef UI_BUTTONTEXT
-#define UI_BUTTONTEXT
+#ifndef UI_BUTTONTEXT_H
+#define UI_BUTTONTEXT_H
 
 #include "UIelement.h"
 

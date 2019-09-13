@@ -28,6 +28,9 @@ Main_Menu::Main_Menu(Resource_Manager * resource_manager) : Scene(resource_manag
 	this->InitTexture();
 	this->InitBackground();
 	this->InitButtons();
+
+	for (int i = 0; i < 20; i++)
+		Console::addLine(L"For testing numder " + std::to_wstring(i));
 }
 
 

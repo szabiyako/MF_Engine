@@ -36,7 +36,7 @@ void MultiStorage::CreateVectorString()
 {
 	if (this->vectorString != nullptr)
 		delete this->vectorString;
-	this->vectorString = new std::vector<std::string>();
+	this->vectorString = new std::vector<std::wstring>();
 }
 
 std::vector<int>* MultiStorage::getVectorInt()
@@ -49,7 +49,7 @@ std::vector<double>* MultiStorage::getVectorDouble()
 	return this->vectorDouble;
 }
 
-std::vector<std::string>* MultiStorage::getVectorString()
+std::vector<std::wstring>* MultiStorage::getVectorString()
 {
 	return this->vectorString;
 }
