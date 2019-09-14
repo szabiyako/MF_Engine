@@ -108,6 +108,9 @@
     <ClCompile Include="StrList.cpp">
       <Filter>CODE\AditionalClasses</Filter>
     </ClCompile>
+    <ClCompile Include="UI_TextBox.cpp">
+      <Filter>CODE\UI\Additional</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="openal32.dll">
@@ -195,6 +198,9 @@
     </ClInclude>
     <ClInclude Include="StrList.h">
       <Filter>CODE\AditionalClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_TextBox.h">
+      <Filter>CODE\UI\Additional</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

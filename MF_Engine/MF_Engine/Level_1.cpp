@@ -14,7 +14,7 @@ Level_1::Level_1(Resource_Manager * resource_manager) : Scene(resource_manager)
 	this->list.push_back(L"3) Three");
 	this->list.push_back(L"4) Four");
 	this->list.push_back(L"5) Five");
-	this->cm = new UI::ContextMenu(this->list, "resources/fonts/arial.ttf", sf::Vector2f(200.f, 40.f), 30);
+	this->cm = new UI::ContextMenu(this->list, this->resource_manager->getFontSystem(), sf::Vector2f(200.f, 40.f), 30);
 
 	this->button = new UI::ButtonText(this->resource_manager->getFontSystem(), L"Button", { 200.f, 80.f }, 60);
 	this->button->setPosition({1080.f, 640.f});

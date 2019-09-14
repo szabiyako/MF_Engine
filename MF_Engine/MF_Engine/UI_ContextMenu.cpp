@@ -63,11 +63,11 @@ int UI::ContextMenu::returnIndex(sf::RenderWindow & window)
 
 //PUBLIC
 
-UI::ContextMenu::ContextMenu(std::vector<sf::String> list, sf::Font &font, sf::Vector2f size, int FontSize, sf::Color color, sf::Color TextColor)
+UI::ContextMenu::ContextMenu(std::vector<sf::String> list, sf::Font *font, sf::Vector2f size, int FontSize, sf::Color color, sf::Color TextColor)
 	: show(false), rightPressed(false), leftPressed(false), indexCursor(-1), position(0.f, 0.f), font(nullptr), indexPressedButNotReleased(-1)
 {
 	this->list = new std::vector<sf::String>(list);
-	this->text = new sf::Text("", font, FontSize);
+	this->text = new sf::Text("", *font, FontSize);
 	this->text->setFillColor(TextColor);
 	this->size = size;
 	this->box = new sf::RectangleShape;

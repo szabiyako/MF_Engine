@@ -31,6 +31,13 @@ Main_Menu::Main_Menu(Resource_Manager * resource_manager) : Scene(resource_manag
 
 	for (int i = 0; i < 20; i++)
 		Console::addLine(L"For testing numder " + std::to_wstring(i));
+	std::wstring str;
+
+	for (int i = 10; i < 150; i++)
+		str += std::to_wstring(i) + L", ";
+	str += std::to_wstring(150);
+	Console::addLine(str);
+
 }
 
 

@@ -45,7 +45,7 @@ namespace UI
 		bool isCursorInsideMenu(sf::RenderWindow & window);
 		int returnIndex(sf::RenderWindow & window);
 	public:
-		ContextMenu(std::vector<sf::String> list, sf::Font& font, sf::Vector2f size = sf::Vector2f(200.f, 25.f), int FontSize = 20, sf::Color color = sf::Color(150, 150, 150, 255), sf::Color TextColor = sf::Color(30, 30, 30, 255));
+		ContextMenu(std::vector<sf::String> list, sf::Font* font, sf::Vector2f size = sf::Vector2f(200.f, 25.f), int FontSize = 20, sf::Color color = sf::Color(150, 150, 150, 255), sf::Color TextColor = sf::Color(30, 30, 30, 255));
 		ContextMenu(std::vector<sf::String> list, const char * fontPath, sf::Vector2f size = sf::Vector2f(200.f, 25.f), int FontSize = 20, sf::Color color = sf::Color(150, 150, 150, 255), sf::Color TextColor = sf::Color(30, 30, 30, 255));
 		virtual ~ContextMenu();
 

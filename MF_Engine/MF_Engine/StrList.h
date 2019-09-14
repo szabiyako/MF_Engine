@@ -7,6 +7,8 @@
 #include <SFML/Network.hpp>
 #include <SFML/System.hpp>
 
+//TODO add backside pointers
+
 class StrList
 {
 private:

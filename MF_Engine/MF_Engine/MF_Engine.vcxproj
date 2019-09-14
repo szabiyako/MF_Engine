@@ -141,6 +141,7 @@
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="Scene_Manager.cpp" />
     <ClCompile Include="UIelement.cpp" />
+    <ClCompile Include="UI_TextBox.cpp" />
     <ClCompile Include="UI_Window.cpp" />
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
@@ -173,6 +174,7 @@
     <ClInclude Include="Scene.h" />
     <ClInclude Include="Scene_Manager.h" />
     <ClInclude Include="UIelement.h" />
+    <ClInclude Include="UI_TextBox.h" />
     <ClInclude Include="UI_Window.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
